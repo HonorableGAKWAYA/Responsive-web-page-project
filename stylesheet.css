@@ -34,7 +34,7 @@ h1, h2{
 /*header style--destkop*/
 header {
     background: url(gallery/Background_top.png);
-    background-size: 100% 100%;
+    background-size: 100%;
     background-repeat: no-repeat;
     color: hsl(0, 0%, 100%);
     border-radius: 0 0 0 90px;
@@ -482,6 +482,9 @@ header .logs{
         left:-12px;
         top:100px;
     }
+    .toggle-button: .nav-logs{
+        display: flex;
+    }
     .nav-logs nav{
         display: flex;
         flex-direction: column;
@@ -490,6 +493,16 @@ header .logs{
         position: relative;
         left: -15px;
         margin: 0 auto;
+    }
+    .nav-logs nav .dropbtn{
+        color: black;
+    }
+    .nav-logs nav .dropdown-content a{
+        padding: 4px;
+    }
+    .nav-logs nav .dropdown-content{
+        position: relative;
+        left: 15px;
     }
     .navbar .logs{
         padding: 20px 0px;
