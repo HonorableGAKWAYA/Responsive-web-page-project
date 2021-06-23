@@ -33,7 +33,7 @@ h1, h2{
 
 /*header style--destkop*/
 header {
-    background: url(gallery/Background_top.png);
+    background: url(gallery/Background_top.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     color: hsl(0, 0%, 100%);
