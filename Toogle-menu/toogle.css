@@ -1,0 +1,65 @@
+body{
+    background: rgb(77, 77, 77);
+    height: 200px;
+}
+
+.toogle-button{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 40px;
+    height: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.toogle-button span{
+    width: 100%;
+    height: 3px;
+    background: white;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.toogle-menu{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40px;
+    height: 27px;
+}
+.toogle-menu span{
+    height: 3px;
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+}*/
