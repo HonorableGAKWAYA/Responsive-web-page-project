@@ -36,7 +36,7 @@ h1, h2{
 
 /*header style--destkop*/
 header {
-    background: url(gallery/Background_top.jpg);
+    background: url(gallery/Background_top.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     color: hsl(0, 0%, 100%);
@@ -305,11 +305,11 @@ header {
         font-size: 16px;
     }
     .sec-two .left{
-        margin: 0 0 0 100px;
+        margin: 0 0 0 19%;
     }
     .sec-two .right{
-        margin: 50px auto;
-        padding: 50px 130px 20px 20px;
+        margin: 8% auto;
+        padding: 6% 15% 20px 9%;
     }
     .sec-two .right h3{
         padding: 10px 10px 10px 0;
@@ -321,7 +321,7 @@ header {
     }
     .sec-two .left img{
         width: 92%;
-        min-width: 300px;
+        min-width: 350px;
         position: relative;
         top:-68px;
     }
@@ -478,6 +478,20 @@ header .logs{
     display:inline-block;
     position: relative;
     width: 99%;
+}
+
+/*for Tablet footer*/
+
+footer{
+    display: block;
+    height: fit-content;
+    padding-bottom: 40px ;
+}
+
+footer .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 }
 
