@@ -1,6 +1,7 @@
 var toggleButton = document.getElementsByClassName("toggle-button")[0];
 var navLogs = document.getElementsByClassName("nav-logs")[0];
 var closeButton = document.getElementsByClassName("close-button")[0];
+var mediaQuery = window.matchMedia('(max-width: 500px)');
 
 // function openToggleMenu (){
 // w = document.documentElement.clientWidth || document.body.clientWidth || window.innerWidth;
@@ -36,7 +37,8 @@ var closeButton = document.getElementsByClassName("close-button")[0];
 
 
 function openToggleMenu (){
-      if ($(window).width() < 500) {
+      
+      if (mediaQuery.matches) {
             navLogs.style.visibility= 'visible';
             toggleButton.style. display = "none";
             closeButton.style. display = "flex";
@@ -51,7 +53,7 @@ function openToggleMenu (){
 };
 
 function closeToggleMenu (){
-      if ($(window).width() < 500) {
+      if (mediaQuery.matches) {
             navLogs.style.visibility= 'hidden';
             toggleButton.style. display = "flex";
             closeButton.style. display = "none";
